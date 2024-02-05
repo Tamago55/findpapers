@@ -556,7 +556,7 @@ def search(outputpath: str, query: Optional[str] = None, since: Optional[datetim
 
     search.merge_duplications()
 
-    logging.info('Flagging potentially predatory publications...')
+    logging.info('(Stop Flagging potentially predatory publications...)')
 
     # _flag_potentially_predatory_publications(search)
 
