@@ -558,7 +558,7 @@ def search(outputpath: str, query: Optional[str] = None, since: Optional[datetim
 
     logging.info('Flagging potentially predatory publications...')
 
-    _flag_potentially_predatory_publications(search)
+    # _flag_potentially_predatory_publications(search)
 
     logging.info(f'It\'s finally over! {len(search.papers)} papers retrieved. Good luck with your research :)')
 
